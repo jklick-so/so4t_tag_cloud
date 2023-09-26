@@ -1,5 +1,5 @@
 # Stack Overflow for Teams Tag Cloud (so4t_tag_cloud)
-A Python script that turns the CSV output from the [Stack Overflow for Teams Tag Report](https://github.com/jklick-so/so4t_tag_report) into a a tag cloud, weighting the tags based on how many page views each has. You can see an example of what the output looks like in the Examples directory ([here](https://github.com/jklick-so/so4t_tag_cloud/blob/main/Examples/so4t_tag_cloud_100_tags.png)).
+A Python script that turns the CSV output from the [Stack Overflow for Teams Tag Report](https://github.com/jklick-so/so4t_tag_report) into a word cloud, weighting tags based on how many aggregate page views each has. You can see an example of what the output looks like in the Examples directory ([here](https://github.com/jklick-so/so4t_tag_cloud/blob/main/Examples/so4t_tag_cloud_100_tags.png)).
 
 ## Requirements
 * Python 3.8 or higher ([download](https://www.python.org/downloads/))
