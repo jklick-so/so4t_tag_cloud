@@ -17,8 +17,10 @@ A Python script that turns the CSV output from the [Stack Overflow for Teams Tag
 
 ## Usage
 * In a terminal window, navigate to the directory where you unpacked the script. 
-* Put the CSV file that was created from the Stack Overflow for Teams Tag Report in the same directory.
-* Run the script with the following command: `python3 so4t_tag_cloud.py --csv <filename.csv> --max-tags <number of tags to include>`
+* Put the CSV file that was created from the [Stack Overflow for Teams Tag Report](https://github.com/jklick-so/so4t_tag_report) in the same directory.
+* Run the script with the following command: `python3 so4t_tag_cloud.py --csv TAG_REPORT_NAME.csv --max-tags NUMBER_OF_TAGS_TO_DISPLAY`
+
+Example: `python3 so4t_tag_cloud.py --csv so4t_tag_report.csv --max-tags 100`
 
 > Note: you can omit the `--max-tags` parameter and it will default to 100 tags.
 
